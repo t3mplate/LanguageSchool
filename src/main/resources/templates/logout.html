@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+  <title>LanguageSchool</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<logout/>
+<input
+        type="hidden"
+        th:name="${_csrf.parameterName}"
+        th:value="${_csrf.token}" />
+</body>
+</html>
